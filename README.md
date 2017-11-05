@@ -1,2 +1,2 @@
 # BusRouteApp
-Bus Route Application using MVP + Rx + Retrofit
+Bus Route Application using MVP + RxJava + Retrofit
