@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BusRoutes</string>
+    <string name="accessibility_icon">accessibility icon</string>
+    <string name="bus_route_image">bus route image</string>
+    <string name="connector_image">connector image</string>
+    <string name="connector_dot_image">connector dot image</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/bus_route_image"
+        android:layout_width="@dimen/layout_w_h_75"
+        android:layout_height="@dimen/layout_w_h_75"
+        android:layout_marginEnd="@dimen/margin_5"
+        android:layout_marginRight="@dimen/margin_5"
+        android:contentDescription="@string/bus_route_image"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/bus_route_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/bus_route_image"
+        android:layout_toRightOf="@+id/bus_route_image"
+        android:textSize="@dimen/font_24"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bus_route_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bus_route_name"
+        android:layout_toEndOf="@+id/bus_route_image"
+        android:layout_toRightOf="@+id/bus_route_image"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/accessibility_image"
+        android:layout_width="@dimen/layout_w_h_30"
+        android:layout_height="@dimen/layout_w_h_30"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="@dimen/margin_5"
+        android:layout_marginRight="@dimen/margin_5"
+        android:contentDescription="@string/accessibility_icon"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_accessibility" />
+
+</RelativeLayout>

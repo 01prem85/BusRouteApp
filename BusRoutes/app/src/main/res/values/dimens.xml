@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- fonts -->
+    <dimen name="font_24">24sp</dimen>
+
+    <!-- Layout width height-->
+    <dimen name="layout_w_h_30">30dp</dimen>
+    <dimen name="layout_w_h_75">75dp</dimen>
+
+    <!-- Margin-->
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+
+</resources>
